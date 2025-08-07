@@ -8,79 +8,108 @@
 
 ## 🌐 What is XRConnect+?
 
-**XRConnect+** is a powerful bridge between **extended reality (XR)** and the **real physical environment**. It empowers developers to connect XR applications with smart devices on a local network, enabling more immersive, reactive, and context-aware experiences.
+**XRConnect+** is a platform that bridges **extended reality (XR)** with the **physical world** by enabling real-time interaction with smart devices — all from within a head-mounted display (HMD).
 
-Whether it's enhancing a horror game by syncing the in-game environment with real-world effects (like lowering the room’s temperature) or enabling accessibility features for users with disabilities, XRConnect+ aims to make XR not just virtual — but truly interactive with the world around you.
+Through **HTTP communication**, XRConnect+ detects devices that a developer has **pre-programmed into their XR application** and establishes live connections. Once connected, the user can control and interact with these devices *directly within the XR environment*, according to the scope and behavior the developer defined.
+
+---
+
+## 🎮 Senior Design Expo Demo
+
+To showcase XRConnect+ at the **University of Miami Senior Design Expo**, we built three fully functional demo use cases:
+
+1. 💡 **Smart Light Control**  
+   Users could turn lights on and off and change their color through gaze-based or hand-tracked interaction inside the headset.
+
+2. 🚗 **RC Car with Live Camera Feed**  
+   Users could remotely drive an RC car while viewing a **real-time video stream** from the car's front-facing camera inside the XR space.
+
+3. 🎵 **Alexa Voice Integration**  
+   Users could activate an Alexa device to play music in the room through contextual interactions in the virtual environment.
+
+> These examples demonstrated XRConnect+'s flexibility and potential for smart home, accessibility, and entertainment applications — even in a constrained demo setting.
+
+---
+
+## 💡 Why We Built It
+
+We believe that **head-mounted displays (HMDs)** will soon become an integral part of everyday life. As their form factor continues to shrink — possibly resembling the **Meta x Ray-Ban smart glasses** — people will start using them not just for entertainment, but for **real-world control, accessibility, and productivity**.
+
+In this future, XR will go beyond simulation — it will **seamlessly interface with our physical environment**. Imagine:
+
+- Looking through your smart glasses at a virtual screen  
+- Turning off all the lights in your home  
+- Adjusting the thermostat  
+- Starting music or locking your doors  
+— all without lifting a finger.
+
+We also see massive potential in **assistive applications**. For example, individuals with mobility impairments could use XRConnect+ to control a **helper robot** in their home — and **see through its eyes** as if it were their own. This concept was directly reflected in our Expo demo, where users drove a remote-controlled car and viewed a **real-time video feed** through their HMD — showcasing the very same principle of **remote embodiment** through XR.
+
+That’s the future we’re building toward. **XRConnect+** is our step in merging extended reality with everyday utility — accessible, immersive, and empowering.
 
 ---
 
 ## 🔧 Key Features
 
-- 🧠 **Local Smart Device Control**  
-  Discover and control devices like smart lights, thermostats, and robots via your XR headset.
+- 🌐 **HTTP-Based Device Detection**  
+  Detect and connect to smart devices defined by the developer’s application logic.
 
-- 🎮 **Immersive Gaming Enhancements**  
-  Sync game events with real-world effects (e.g., horror game lowers room temp or flickers lights).
+- 🎛️ **In-XR Device Control**  
+  Interact with physical devices through intuitive interfaces rendered in VR/AR.
 
-- ♿ **Accessibility Use-Cases**  
-  Allow individuals with mobility impairments to control assistive robots or devices via their headset.
+- 🎯 **Developer-Defined Scope**  
+  Control what devices are accessible and how they're used based on the application's intent.
 
-- 🛠️ **Developer-Friendly**  
-  Expose easy-to-use APIs and interfaces for integrating into Unity, Unreal Engine, and other platforms.
-
----
-
-## 💡 Motivation
-
-As XR technology evolves, the boundary between the digital and physical world becomes more blurred. We wanted to explore how **real-world feedback loops** can enrich immersion, utility, and emotional connection in XR — whether in games, therapy, education, or everyday life.
+- 💡 **Modular Use Cases**  
+  From smart homes to robotics, XRConnect+ adapts to diverse developer needs.
 
 ---
 
 ## 🛠️ Technologies Used
 
-- Python (Networking & Device Control)
-- Unity (XR development)
-- Android XR SDK (Meta Quest compatibility)
-- WebSocket Protocol
-- Local Network Discovery (e.g., mDNS / Bonjour)
+- **Unity** – XR development environment
+- **C#** – Core application logic and interaction scripting
+- **Meta Quest SDK** – Standalone headset integration
+- **WebRTC** – Real-time video streaming (for RC car feed)
+- **Amazon Alexa** – Music control via voice assistant integration
+- **AWS EC2 / Lambda (or similar)** – Used for secure key-based Alexa control via virtual machines
 
 ---
 
 ## 🚀 Future Plans
 
-- 🔐 Add secure device authentication
-- ☁️ Expand to remote (non-local) IoT integration
-- 📱 Create a companion mobile app
-- 🎯 Publish as an SDK or Unity package
-
----
-
-## 🧑‍💻 Authors
-
-| Name              | Role                      | GitHub / Contact         |
-|-------------------|---------------------------|--------------------------|
-| **Andrew Lamazares** | XR + IoT Integration, Networking | [@andresgithub](https://github.com/yourusername) |
-| **Nate Joseph**      | Unity & Game Design Logic      | (link or contact)        |
-| **Youssof Alwardany** | Device Protocols & System Design | (link or contact)        |
-
----
-
-## 🏛️ About the Program
-
-This project was developed as part of the **Senior Design Capstone** in the **University of Miami College of Engineering**, combining coursework in electrical, computer, and software engineering to tackle real-world, interdisciplinary challenges.
+- 🔐 Secure device authorization and pairing
+- 🌍 Support for remote (cloud-connected) devices
+- 📱 Companion mobile app for device management
+- 🧰 Publish a Unity SDK for developer adoption
 
 ---
 
 ## 📸 Screenshots & Demo
 
-<!-- Replace with actual media links or image embeds -->
-- [ ] Coming soon: Demo video
-- [ ] Coming soon: Architecture diagram
-- [ ] Coming soon: XR headset screenshots
+<!-- Replace with actual media links -->
+- [ ] Demo video (Expo walkthrough)
+- [ ] Architecture diagram
+- [ ] XR UI screenshots
+
+---
+
+## 🧑‍💻 Authors
+
+| Name              | Role                                  | GitHub / Contact         |
+|-------------------|----------------------------------------|--------------------------|
+| **Andrew Lamazares** | XR integration, networking, systems    | [@andresgithub](https://github.com/yourusername) |
+| **Nate Joseph**      | Unity development & UX design          | (link or contact)        |
+| **Youssof Alwardany** | Device communication & microcontroller systems | (link or contact)        |
+
+---
+
+## 🏛️ About the Program
+
+This project was developed as part of the **Senior Design Capstone** at the **University of Miami College of Engineering**, combining coursework in software, hardware, and systems engineering to build a real-world product from scratch.
 
 ---
 
 ## 📄 License
 
 This project is licensed under the MIT License. See `LICENSE.md` for details.
-
