@@ -87,7 +87,7 @@ That’s the future we’re building toward. **XRConnect+** is our step in mergi
 
 ## 🧑‍💻 Authors
 
-| Name              | Role                                  | GitHub / Contact         |
+| Name              | Role                                  | GitHub / LinkedIn         |
 |-------------------|----------------------------------------|--------------------------|
 | **Andrew Lamazares** | XR integration, networking, systems    | [@andresgithub](https://github.com/yourusername) [@andrewlinkedin](https://www.linkedin.com/in/andrew-lamazares/)|
 | **Nate Joseph**      | Unity development & UX design          | [@nategithub](https://github.com/natejoseph) [@natelinkedin](https://www.linkedin.com/in/nathanieljoseph/)|
