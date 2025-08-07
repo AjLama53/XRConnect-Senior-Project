@@ -79,8 +79,9 @@ That’s the future we’re building toward. **XRConnect+** is our step in mergi
 ## 📸 Screenshots & Demo
 
 <!-- Replace with actual media links -->
-- ![Senior Project Expo Demo Picture](images/senior_project.jpg)
-- ![Senior Project Architecture Diagram](images/senior_project_arch.jpeg)
+- ![Senior Project Expo Demo Picture](images/senior_project.jpg) Image from Senior Project Expo
+  
+- ![Senior Project Architecture Diagram](images/senior_project_arch.jpeg) Senior Project Architecture Diagram
 
 ---
 
