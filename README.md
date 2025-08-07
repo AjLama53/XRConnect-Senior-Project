@@ -72,16 +72,7 @@ That’s the future we’re building toward. **XRConnect+** is our step in mergi
 - **Meta Quest SDK** – Standalone headset integration
 - **WebRTC** – Real-time video streaming (for RC car feed)
 - **Amazon Alexa** – Music control via voice assistant integration
-- **AWS EC2 / Lambda (or similar)** – Used for secure key-based Alexa control via virtual machines
-
----
-
-## 🚀 Future Plans
-
-- 🔐 Secure device authorization and pairing
-- 🌍 Support for remote (cloud-connected) devices
-- 📱 Companion mobile app for device management
-- 🧰 Publish a Unity SDK for developer adoption
+- **AWS EC2 / Lambda** – Used for secure key-based Alexa control via virtual machines
 
 ---
 
@@ -98,18 +89,12 @@ That’s the future we’re building toward. **XRConnect+** is our step in mergi
 
 | Name              | Role                                  | GitHub / Contact         |
 |-------------------|----------------------------------------|--------------------------|
-| **Andrew Lamazares** | XR integration, networking, systems    | [@andresgithub](https://github.com/yourusername) |
-| **Nate Joseph**      | Unity development & UX design          | (link or contact)        |
-| **Youssof Alwardany** | Device communication & microcontroller systems | (link or contact)        |
+| **Andrew Lamazares** | XR integration, networking, systems    | [@andresgithub](https://github.com/yourusername) [@andrewlinkedin](https://www.linkedin.com/in/andrew-lamazares/)|
+| **Nate Joseph**      | Unity development & UX design          | [@nategithub](https://github.com/natejoseph) [@natelinkedin](https://www.linkedin.com/in/nathanieljoseph/)|
+| **Youssof Alwardany** | Device communication & microcontroller systems | [youssoflinkedin](https://www.linkedin.com/in/youssof-alwardany/) |
 
 ---
 
 ## 🏛️ About the Program
 
 This project was developed as part of the **Senior Design Capstone** at the **University of Miami College of Engineering**, combining coursework in software, hardware, and systems engineering to build a real-world product from scratch.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License. See `LICENSE.md` for details.
