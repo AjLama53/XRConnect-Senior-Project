@@ -1,4 +1,0 @@
-repository "Senior_Project_Base/Senior_Project_Base@2474564180088@cloud"
-  path "/"
-    br "/main"
-    co "/main"
