@@ -80,7 +80,7 @@ That’s the future we’re building toward. **XRConnect+** is our step in mergi
 
 <!-- Replace with actual media links -->
 - ![Senior Project Expo Demo Picture](images/senior_project.jpg)
-- [ ] Architecture diagram
+- ![Senior Project Architecture Diagram] (images/senior_project_arch.jpeg)
 
 ---
 
